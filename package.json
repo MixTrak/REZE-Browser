@@ -1,0 +1,29 @@
+{
+  "name": "browser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "server": "nodemon server/server.js",
+    "dev": "concurrently \"npm run server\" \"npm start\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.2.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.2.0",
+    "concurrently": "^9.2.1",
+    "electron": "^40.6.0",
+    "nodemon": "^3.1.14",
+    "tailwindcss": "^4.2.0"
+  }
+}
