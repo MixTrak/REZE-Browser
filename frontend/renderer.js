@@ -1,4 +1,4 @@
-const BASE_API_URL = 'http://localhost:5001/api';
+const BASE_API_URL = 'https://reze-browser.onrender.com/api';
 
 document.addEventListener('DOMContentLoaded', () => {
     const appDiv = document.getElementById('app');
